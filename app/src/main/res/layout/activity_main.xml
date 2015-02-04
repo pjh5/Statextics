@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f4cb"
+    tools:context=".MainActivity"
+    android:id="@+id/activitymain">
+
+    <Button
+        style="@style/button"
+        android:text="Statextics"
+        android:tag="header"
+        android:textSize="100sp"
+        android:textColor="#323c55"
+        android:background="#f8f4cb"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"/>
+
+    <Button android:text="Me"
+        android:id="@+id/main_btn_me"
+        android:background="#e26881"
+        android:tag="button"
+        style="@style/button"
+        android:onClick="goToMyProfile"/>
+
+    <Button android:text="friends"
+        android:id="@+id/main_btn_friends"
+        android:background="#e27e51"
+        android:tag="button"
+        style="@style/button"
+        android:clickable="true"
+        android:onClick="goToFriends"/>
+
+    <Button android:text="analyze"
+        android:id="@+id/main_btn_analyze"
+        android:background="#ae658e"
+        style="@style/button"
+        android:tag="button"
+        android:onClick="onAnalyze" />
+
+    <Button
+        style="@style/button"
+        android:text="Hackrice '15"
+        android:tag="header"
+        android:textSize="70sp"
+        android:textColor="#323c55"
+        android:background="#f8f4cb"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"/>
+
+
+</LinearLayout>

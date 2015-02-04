@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:text="FRIENDS"
+        android:id="@+id/topheader"
+        android:textSize="100sp"
+        android:background="#e27e51"
+        android:textColor="#f8f4cb"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Statextics</string>
+
+    <!-- Main Activity Strings -->
+    <string name="main_activity_name">Statextics</string>
+    <string name="main_btn_see_current_stats">Current Text Stats</string>
+    <string name="main_btn_analyze_texts">Analyze Texts</string>
+    <string name="main_btn_messages">Messages</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Statistics Page -->
+    <string name="title_activity_statistics_page">This is the Statistics Page</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <!-- Drawer Labels -->
+    <string name="title_profanity">Most Profane</string>
+    <string name="title_vanity">Most Vain</string>
+    <string name="title_food_love">Foodies</string>
+    <string name="title_anger">Most Angry</string>
+    <string name="title_party">Party Hardy</string>
+    <string name="title_quick_texter">Fast Responder</string>
+    <string name="title_slow_texter">Slow Responder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_message_list">Activity Message List</string>
+    <string name="title_activity_friends">Friends</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_friend_profile">FriendProfile</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="loading">GETTING STATS</string>
+
+</resources>
